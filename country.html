@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Participating</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="logo">
+            <img src="/images/logo.png" alt="logo">
+            <span>G-11 <label for="" style="color: red;">Olympics</label></span>
+        </div>
+        <div class="menu" id="menu">
+            <div class="menu-btn">
+                <img src="/images/menu.svg" alt="menu" id="open" onclick="showMenu()">
+                <img src="/images/close.svg" alt="close" id="close" onclick="showMenu()">
+            </div>
+            <div class="menu-list">
+                <span class="list-item"><a href="/index.html">home</a></span>
+                <span class="list-item"><a href="/country.html" class="active">country</a></span>
+                <span class="list-item"><a href="/schedule.html">schedule</a></span>
+                <span class="list-item"><a href="/comming.html">sports</a></span>
+                <span class="list-item"><a href="/comming.html">news</a></span>
+                <span class="list-item"><a href="/comming.html">results</a></span>
+                <span class="list-item"><a href="/comming.html">about</a></span>
+                <span class="list-item"><a href="/comming.html">contact</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-title">Medal Standings</div>
+
+    <div class="country-container">
+        <div class="top-3">
+            <div class="country-card">
+                <img src="/flags/1.png" alt="1">
+                <span class="name">United States of America</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>40</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>44</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>42</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>126</span>
+                    </div>
+                </div>
+            </div>
+            <div class="country-card">
+                <img src="/flags/2.png" alt="2">
+                <span class="name">People's Republic of China</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>40</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>27</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>24</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>91</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/3.png" alt="3">
+                <span class="name">Japan</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>20</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>12</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>13</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>45</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-other">
+            <div class="country-card">
+                <img src="/flags/4.png" alt="4">
+                <span class="name">Australia</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>18</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>19</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>16</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>53</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/5.png" alt="5">
+                <span class="name">France</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>16</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>26</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>22</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>64</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/6.png" alt="6">
+                <span class="name">Netherlands</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>15</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>7</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>12</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>34</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/7.png" alt="7">
+                <span class="name">Great Britain</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>14</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>22</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>29</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>65</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/8.png" alt="8">
+                <span class="name">Republic of Korea</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>13</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>9</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>10</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>32</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/9.png" alt="9">
+                <span class="name">Italy</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>12</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>13</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>15</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>40</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/10.png" alt="10">
+                <span class="name">Germany</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>12</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>13</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>8</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>33</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/11.png" alt="11">
+                <span class="name">New Zealand</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>10</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>7</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>3</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>20</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/12.png" alt="12">
+                <span class="name">Canada</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>9</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>7</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>11</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>27</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/13.png" alt="13">
+                <span class="name">Uzbekistan</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>8</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>2</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>3</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>13</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/14.png" alt="14">
+                <span class="name">Hungary</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>6</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>7</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>6</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>19</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/15.png" alt="15">
+                <span class="name">Spain</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>5</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>4</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>9</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>18</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/16.png" alt="16">
+                <span class="name">Sweden</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>4</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>4</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>3</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>11</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/17.png" alt="17">
+                <span class="name">Kenya</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>4</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>2</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>5</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>11</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/18.png" alt="18">
+                <span class="name">Norway</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>4</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>1</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>3</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>8</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/19.png" alt="19">
+                <span class="name">Ireland</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>4</span>
+                    </div>
+                    <div class="silver"></div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>3</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>7</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="country-card">
+                <img src="/flags/20.png" alt="20">
+                <span class="name">Brazil</span>
+                <div class="medals">
+                    <div class="gold">
+                        <img src="/images/goldmdal.png" alt="gold">
+                        <span>3</span>
+                    </div>
+                    <div class="silver">
+                        <img src="/images/silvermedal.png" alt="silver">
+                        <span>7</span>
+                    </div>
+                    <div class="bronze">
+                        <img src="/images/bronze-medal.png" alt="bronze">
+                        <span>10</span>
+                    </div>
+                    <div class="total">
+                        <img src="/images/totalmedals.png" alt="total">
+                        <span>20</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="f-details">
+            <div class="logo">
+                <img src="/images/Bg-Logo-heading2.png" alt="logo">
+                <span>G-11 Olympic</span>
+            </div>
+            <p>Inspiring global unity through sport. Join us in celebrating excellence, perseverance, and the Olympic spirit.</p>
+            <div class="socal">
+                <a href="#"><img src="/images/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="/images/instagram.png" alt="insta"></a>
+                <a href="#"><img src="/images/linkedin.png" alt="linkdin"></a>
+                <a href="#"><img src="/images/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="/images/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+        <div class="quick-links">
+            <div class="menu-list">
+                <span class="list-item"><a href="#">home</a></span>
+                <span class="list-item"><a href="#">country</a></span>
+                <span class="list-item"><a href="#">schedule</a></span>
+                <span class="list-item"><a href="#">sports</a></span>
+                <span class="list-item"><a href="#">news</a></span>
+                <span class="list-item"><a href="#">results</a></span>
+                <span class="list-item"><a href="#">about</a></span>
+                <span class="list-item"><a href="#">contact</a></span>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="addres">
+                <img src="/images/location-pin.png" alt="...">
+                <span>Olympic Bhawan, B-29, Qutub Institutional Area, New Delhi 110016,INDIA</span>
+            </div>
+            <div class="email">
+                <img src="/images/web.png" alt="...">
+                <span>G-11@olympic.com</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

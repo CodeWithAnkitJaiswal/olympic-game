@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="logo">
+            <img src="/images/logo.png" alt="logo">
+            <span>G-11 <label for="" style="color: red;">Olympics</label></span>
+        </div>
+        <div class="menu" id="menu">
+            <div class="menu-btn">
+                <img src="/images/menu.svg" alt="menu" id="open" onclick="showMenu()">
+                <img src="/images/close.svg" alt="close" id="close" onclick="showMenu()">
+            </div>
+            <div class="menu-list">
+                <span class="list-item"><a href="/index.html">home</a></span>
+                <span class="list-item"><a href="/country.html">country</a></span>
+                <span class="list-item"><a href="/schedule.html" class="active">schedule</a></span>
+                <span class="list-item"><a href="/comming.html">sports</a></span>
+                <span class="list-item"><a href="/comming.html">news</a></span>
+                <span class="list-item"><a href="/comming.html">results</a></span>
+                <span class="list-item"><a href="/comming.html">about</a></span>
+                <span class="list-item"><a href="/comming.html">contact</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-title">Olympic Games 2024 Schedule</div>
+
+    <div class="page-content">
+        <div class="card-container">
+            <div class="sport-card" onclick="openModal('swimming')">
+                <img src="/images/swimming.jfif" alt="Swimming">
+                <span>swimming</span>
+            </div>
+            <div class="sport-card" onclick="openModal('gymnastics')">
+                <img src="/images/sport-2.webp" alt="Gymnastics">
+                <span>gymnastics</span>
+            </div>
+            <div class="sport-card" onclick="openModal('athletics')">
+                <img src="/images/sport-3.jfif" alt="Athletics">
+                <span>athletics</span>
+            </div>
+            <div class="sport-card" onclick="openModal('basketball')">
+                <img src="/images/sport-4.jfif" alt="Basketball">
+                <span>basketball</span>
+            </div>
+            <div class="sport-card" onclick="openModal('boxing')">
+                <img src="/images/sport-5.jfif" alt="Boxing">
+                <span>boxing</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal for displaying event details -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-img" src="" alt="Event Image">
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="f-details">
+            <div class="logo">
+                <img src="/images/Bg-Logo-heading2.png" alt="logo">
+                <span>G-11 Olympic</span>
+            </div>
+            <p>Inspiring global unity through sport. Join us in celebrating excellence, perseverance, and the Olympic spirit.</p>
+            <div class="socal">
+                <a href="#"><img src="/images/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="/images/instagram.png" alt="insta"></a>
+                <a href="#"><img src="/images/linkedin.png" alt="linkdin"></a>
+                <a href="#"><img src="/images/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="/images/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+        <div class="quick-links">
+            <div class="menu-list">
+                <span class="list-item"><a href="#">home</a></span>
+                <span class="list-item"><a href="#">country</a></span>
+                <span class="list-item"><a href="#">schedule</a></span>
+                <span class="list-item"><a href="#">sports</a></span>
+                <span class="list-item"><a href="#">news</a></span>
+                <span class="list-item"><a href="#">results</a></span>
+                <span class="list-item"><a href="#">about</a></span>
+                <span class="list-item"><a href="#">contact</a></span>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="addres">
+                <img src="/images/location-pin.png" alt="...">
+                <span>Olympic Bhawan, B-29, Qutub Institutional Area, New Delhi 110016,INDIA</span>
+            </div>
+            <div class="email">
+                <img src="/images/web.png" alt="...">
+                <span>G-11@olympic.com</span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="schedule.js"></script>
+</body>
+
+</html>
